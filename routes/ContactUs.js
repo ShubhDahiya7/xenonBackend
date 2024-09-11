@@ -1,5 +1,5 @@
 const router = require("express").Router();
-let ContactUsDB = require("../models/contactUs.models");
+let ContactUsDB = require("../models/ContactUs.models");
 
 router.route("/").get((req, res) => {
   ContactUsDB.findOne()
